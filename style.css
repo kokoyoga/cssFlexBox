@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* border */
+.border {
+  width: 1000px;
+  padding: 10px;
+  border: 5px solid black;
+}
+/* ---------- */
+
+
+/* header */
+.header {
+  width: 1000px;
+  height: 300px;
+  background-color: blueviolet;
+  text-align: center;
+  line-height: 300px;
+}
+/* --------- */
+
+
+
+/* container */
+.aside {
+  width: 400px;
+  height: 200px;
+  background-color: blue;
+  float: left;
+  text-align: center;
+  line-height: 200px;
+}
+.nav {
+  width: 400px;
+  height: 300px;
+  background-color: red;
+  float: left;
+  text-align: center;
+  line-height: 300px;
+}
+.main {
+  width: 600px;
+  height: 500px;
+  background-color: burlywood;
+  float: right;
+  text-align: center;
+  line-height: 500px;
+}
+/* --------- */
+
+
+
+/* footer */
+.footer {
+  display: inline-block;
+  width: 1000px;
+  height: 100px;
+  background-color: grey;
+  text-align: center;
+  line-height: 100px;
+}
+/* ---------- */
+
+
+
+
+/* clearfix */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* ---------- */
